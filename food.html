@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foodie's Delight</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Foodie's Delight</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to Foodie's Delight</h2>
+            <p>Your one-stop destination for delicious meals!</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="mexicanaWebp.webp" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Delicious cheese pizza with fresh ingredients.</p>
+            </div>
+            <div class="menu-item">
+                <img src="burger.webp" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy beef burger served with crispy fries.</p>
+            </div>
+            <div class="menu-item">
+                <img src="pasta.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Italian pasta with a creamy sauce.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="book">
+        <h2>Book a Table</h2>
+        <form action="#" method="post" class="book-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Reservation Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+            </div>
+            <div class="form-group">
+                <label for="requests">Special Requests:</label>
+                <textarea id="requests" name="requests" placeholder="Any specific requirements?" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </section>
+
+    <section id="feedback">
+        <h2>CUSTOMER FEEDBACK</h2>
+        <div class="feedback-grid">
+            <div class="feedback-item">
+                <p>"The food was amazing, and the service was top-notch. Will definitely visit again!"</p>
+                <h4>– John Doe</h4>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="feedback-item">
+                <p>"Absolutely loved the ambiance and the delicious meals. Highly recommended!"</p>
+                <h4>– Jane Smith</h4>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="feedback-item">
+                <p>"Had an amazing time with my family. The pasta was out of this world!"</p>
+                <h4>– Michael Brown</h4>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="best-dishes">
+        <div class="metrics">
+            <div class="metric-item">
+                <h3>220+</h3>
+                <p>Best Dishes</p>
+            </div>
+            <div class="metric-item">
+                <h3>50+</h3>
+                <p>Awards Won</p>
+            </div>
+            <div class="metric-item">
+                <h3>80+</h3>
+                <p>Our Chefs</p>
+            </div>
+            <div class="metric-item">
+                <h3>200+</h3>
+                <p>Daily Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest news, offers, and exclusive recipes.</p>
+        <form action="#" method="post" class="subscribe-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Foodie's Delight, we pride ourselves on serving fresh, tasty, and high-quality food. Our team of chefs works with passion to bring you delightful dishes every day!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@foodiesdelight.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Location: 123 Foodie Street, Flavor Town</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Foodie's Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
